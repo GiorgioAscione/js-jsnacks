@@ -6,11 +6,11 @@ let secondaParola = prompt(" Inserisci un altra parola ");
 
 alert("Confronto tra le due lunghezze")
 
-if (primaParola.length> secondaParola){
+if (primaParola.length> secondaParola.length){
     alert(" La prima parola è più lunga della seconda ")
 }
 
-else if (primaParola< secondaParola){
+else if (primaParola.length< secondaParola.length){
     alert( "La seconda parola è più lunga della prima")
 }
 
